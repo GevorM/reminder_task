@@ -1,6 +1,5 @@
-# Laravel Order Reminder System
+# Order Reminder System
 
-This is a Laravel-based system designed to send order reminders based on user-defined conditions. It allows for the tracking of orders, sending reminders for upcoming expiration dates, and provides localization features to support multiple languages.
 
 ## Features
 
@@ -23,7 +22,7 @@ This is a Laravel-based system designed to send order reminders based on user-de
 First, clone the repository to your local machine or server.
 
 ```bash
-git clone https://github.com/yourusername/order-reminder-system.git
+git clone https://github.com/GevorM/reminder_task.git
 cd order-reminder-system
 
 ---
