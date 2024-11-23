@@ -42,16 +42,13 @@ This guide explains how to use the **Postman** request to create a new business 
 - **Headers**:
   - `Content-Type: application/json`
 
-## Request Body
+## Request Body form-data
 
 You need to send the following JSON body in the **Body** section of the Postman request:
 
-```json
-{
-  "user_id": 1,
-  "business_name": "My Business",
-  "order_type": "x" // y or x,
-  "application_date": "2024-11-23",
-  "business_id": 1,
-  "email": "example@gmail.com"
-}
+user_id: 1,
+business_name: My Business,
+order_type: x
+application_date: 2024-11-23,
+business_id: 1,
+email: example@gmail.com
