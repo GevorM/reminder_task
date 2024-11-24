@@ -26,10 +26,14 @@ git clone https://github.com/GevorM/reminder_task.git
 cd order-reminder-system
 
 ---
-1. **Creating a new database**.
-2. **Running the migrations** (`php artisan migrate`).
-3. **Starting the queue worker** (`php artisan queue:work`).
-4. **Running the scheduler** (`php artisan schedule:run`).
+1. **Cloning the repository**.
+2. **Installing dependencies** (`composer install`).
+3. **creating a .env file** (`cp .env.example .env`).
+4. **Generating the application key** (`php artisan key:generate`).
+5. **Running the migrations** (`php artisan migrate`).
+6. **create orders via postman**.
+7. **Starting the queue worker** (`php artisan queue:work`).
+8. **Running the scheduler** (`php artisan schedule:run`).
 
 # API Request: Create Business Order
 
