@@ -152,7 +152,7 @@ class CreateOrderDTO
             'order_type' => $this->getOrderType(),
             'user_id' => $this->getUserId(),
             'business_name' => $this->getBusinessName(),
-            'business_email' => $this->getBusinessEmail(),
+            'email' => $this->getBusinessEmail(),
             'business_id' => $this->getBusinessId(),
             'application_date' => $this->getApplicationDate(),
             'expiration_date' => $this->getExpirationDate(),
